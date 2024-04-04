@@ -23,8 +23,13 @@
             {{ .Content }}
           </article>
 
-          {{ if .Params.link1 }}<h3><a href="{{ .Params.link1 }}">{{ i18n "view" }}</a></h3>{{ end }}
-          {{ if .Params.link2 }}<h3><a href="{{ .Params.link2 }}">{{ i18n "code" }}</a></h3>{{ end }}
+          {{ if .Params.link1 }}<h3><a href="{{ .Params.link1 }}" target="_blank">{{ i18n "deployment" }}</a></h3>{{ end }}
+          {{ if .Params.link2 }}<h3><a href="{{ .Params.link2 }}" target="_blank">{{ i18n "homepage" }}</a></h3>{{ end }}
+          {{ if .Params.link3 }}<h3><a href="{{ .Params.link3 }}" target="_blank">{{ i18n "delegate" }}</a></h3>{{ end }}
+          {{ if .Params.link4 }}<h3><a href="{{ .Params.link4 }}" target="_blank">{{ i18n "contact" }}</a></h3>{{ end }}
+          {{ if .Params.link5 }}<h3><a href="{{ .Params.link5 }}" target="_blank">{{ i18n "learn" }}</a></h3>{{ end }}
+          {{ if .Params.link6 }}<h3><a href="{{ .Params.link6 }}" target="_blank">{{ i18n "partner" }}</a></h3>{{ end }}
+          {{ if .Params.link7 }}<h3><a href="{{ .Params.link7 }}" target="_blank">{{ i18n "start" }}</a></h3>{{ end }}
         </div>
 
       </div>

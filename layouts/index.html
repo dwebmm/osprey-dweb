@@ -15,6 +15,10 @@
       {{ if not (eq (len (where .Site.RegularPages "Section" "blog")) 0) }} {{
       partial "blog.html" . }} {{ end }}
 
+      <!-- People -->
+      {{ if not (eq (len (where .Site.RegularPages "Section" "people")) 0) }} {{
+      partial "people.html" . }} {{ end }}
+
       <!-- Contact -->
       {{ partial "contact.html" . }}
     </main>

@@ -54,7 +54,7 @@ highlightJSScript = "" # For custom highlight.js languages config, add your /pat
 # Choose either Formspree contact form or Basin contact form
 ajaxFormspree = false
 ajaxFormspreeGold = false
-ajaxBasin = "https://usebasin.com/f/0eae7044d4c2"
+ajaxBasin = "https://usebasin.com/f/ef92294fe619"
 
 # Lazy loading with lazysizes
 lazyloading = true
@@ -64,7 +64,7 @@ name = "About"
 url = "/#about"
 weight = 1
 [[menu.main]]
-name = "Work"
+name = "Projects"
 url = "/#work"
 weight = 2
 [[menu.main]]
