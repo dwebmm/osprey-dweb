@@ -1,5 +1,5 @@
 title = "D-Web.net"
-baseURL = "https://dweb.home"
+baseURL = "https://dweb.net"
 tags = [
   "blockchain",
   "infrastructure",
@@ -26,7 +26,7 @@ author = "Michael Maurakis"
 description = "Full-stack web developer and UI/UX enthusiast based in San Antonio, TX."
 logoBig = "/images/dweb-logo.png"
 logoSmall = "/images/dweb-logo.png"
-favicon = "favicon.ico"
+favicon = "/images/dweb-logo.png"
 opengraphImage = "/images/osprey.png"
 email = "info@dweb.net"
 googleTagManager = ""
@@ -39,7 +39,7 @@ github = "d-web-net"
 #facebook = ""
 
 # Copyright and theme author credit in footer
-copyright = false
+copyright = true
 credit = false
 
 # Cache busting of static resources (additional set up required)
