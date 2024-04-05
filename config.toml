@@ -14,7 +14,7 @@ config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
 googleAnalytics = ""
-disqusShortname = "tomanistor"
+disqusShortname = "dWebnet"
 disableKinds = [
   "taxonomy",
   #  "taxonomyTerm",
@@ -26,7 +26,7 @@ author = "Michael Maurakis"
 description = "Full-stack web developer and UI/UX enthusiast based in San Antonio, TX."
 logoBig = "/images/dweb-logo.png"
 logoSmall = "/images/dweb-logo.png"
-favicon = "/images/dweb-logo.png"
+favicon = "favicon.ico"
 opengraphImage = "/images/osprey.png"
 email = "info@dweb.net"
 googleTagManager = ""
